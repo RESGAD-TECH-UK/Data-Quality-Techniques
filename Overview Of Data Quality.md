@@ -1,6 +1,5 @@
 ## Why Data Quality Is Important
 1. **Accurate data enables better decision-making**
-
 → Reliable insights from accurate data can give your organization a competitive edge.
 
 2. **Complete data drives cost optimization**
