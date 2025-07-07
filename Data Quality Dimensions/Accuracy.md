@@ -42,12 +42,12 @@ comparison = df_observed == df_reference
 
 ```
 Comparison:
-   Name    Age  Gender  City
-0  True   True    True  True
-1  True   True    True  True
-2  True  False    True  True
-3  True   True    True  True
-4  True   True    True  True
+   CustomerID    Purchase  Amount
+0  True         True        True  
+1  True         True        True  
+2  True         True        False  
+3  True         True        True  
+4  True         True        True  
 ```
 #### Calculate Accuracy per Column
 
