@@ -27,7 +27,7 @@ import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
 
-np.random.seed(0)
+np.random.seed(0) #this will ensure that the random values always stay the same everytime some runs this.
 n_samples = 100
 start_time = datetime(2023, 10, 25, 9, 0, 0)
 end_time = datetime(2023, 10, 25, 16, 0, 0)
