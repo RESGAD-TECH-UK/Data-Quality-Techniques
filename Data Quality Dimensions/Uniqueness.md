@@ -27,7 +27,7 @@ duplicated_mask = df['Email'].duplicated(keep='first')
 #  Create a new column to indicate uniqueness
 df['Uniqueness'] = ~duplicated_mask
 
-#  Calculate uniqueness percentage
+#  Calculate uniqueness %
 unique_percentage = (df['Uniqueness'].sum() / len(df)) * 100
 
 #  Display results
